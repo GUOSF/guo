@@ -1,7 +1,7 @@
 package com.guo.decorator.Battercake.v1;
 
 /**
- * Created by Tom.
+ * 装饰
  */
 public class Test {
 

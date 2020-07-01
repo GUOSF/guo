@@ -12,6 +12,8 @@
         <module>dubbo-test</module>
         <module>Design-patterns</module>
         <module>Demo</module>
+        <module>algorithm</module>
+        <module>spring-test</module>
     </modules>
 
 </project>

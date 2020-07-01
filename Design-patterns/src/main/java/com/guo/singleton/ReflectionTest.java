@@ -15,9 +15,13 @@ public class ReflectionTest {
 
             Class clazz = SingEnum.class;
             Constructor c = clazz.getDeclaredConstructor(String.class, int.class);
+//            Class clazz = EHanSingletion.class;
+//            Constructor c = clazz.getDeclaredConstructor();
             c.setAccessible(true);
             Object o = c.newInstance();
+            Object o1 = c.newInstance();
             System.out.println(o);
+            System.out.println(o1);
 
         } catch (Exception e) {
             e.printStackTrace();
